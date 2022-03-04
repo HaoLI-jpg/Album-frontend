@@ -1,11 +1,14 @@
 import React from "react";
+import {Container} from "@material-ui/core"
 import Form from './Form/Form'
 
 const Upload = () => {
     return(
         <>
-            <p>upload</p>
-            <Form />
+            <Container maxWidth="lg">
+                <p>upload</p>
+                <Form />
+            </Container>
         </> 
     )
 }
