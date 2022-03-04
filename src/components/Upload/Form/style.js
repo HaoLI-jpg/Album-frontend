@@ -8,6 +8,8 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
     },
     paper: {
+        alignContent: 'center',
+        width: "50%",
         padding: theme.spacing(2)
     },
     input: {

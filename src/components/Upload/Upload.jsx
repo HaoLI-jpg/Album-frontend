@@ -1,15 +1,16 @@
 import React from "react";
-import {Container} from "@material-ui/core"
+import {Container, Grid} from "@material-ui/core"
 import Form from './Form/Form'
+import useStyles from "./Form/style";
 
 const Upload = () => {
+    const classes = useStyles();
     return(
-        <>
-            <Container maxWidth="lg">
-                <p>upload</p>
+        <Container maxWidth="lg">
+            <Grid alignItems="stretch" spacing={3} className={classes.form}>
                 <Form />
-            </Container>
-        </> 
+            </Grid>
+        </Container>
     )
 }
 

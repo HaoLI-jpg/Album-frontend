@@ -7,9 +7,6 @@ const useStyles = makeStyles((theme) => ({
     },
     icons: {
         flexGrow: 1,
-    },
-    bar: {
-        marginBottom: '30px'
     }
 }));
 

@@ -8,7 +8,7 @@ const Navbar = () => {
     const classes = useStyles();
 
     return(
-        <AppBar position="static">
+        <AppBar position="sticky" className={classes.bar}>
             <Toolbar>
                 <PhotoLibraryIcon />
                 <Typography variant="h6" className={classes.title} noWrap>
